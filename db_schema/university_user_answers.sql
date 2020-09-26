@@ -1,0 +1,55 @@
+-- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
+--
+-- Host: localhost    Database: university
+-- ------------------------------------------------------
+-- Server version	8.0.20
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `user_answers`
+--
+
+DROP TABLE IF EXISTS `user_answers`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `user_answers` (
+  `id` bigint unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int NOT NULL,
+  `questionnaire_id` int NOT NULL,
+  `answers` text COLLATE utf8mb4_unicode_ci NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user_answers`
+--
+
+LOCK TABLES `user_answers` WRITE;
+/*!40000 ALTER TABLE `user_answers` DISABLE KEYS */;
+INSERT INTO `user_answers` VALUES (7,1,1,'nHYbXsb+6fvf+gDq7bOi8qa+cAMWD9Qz2VaaLZu3D+jK9q6TJ2b6V3jlUqSoiKXJgL1oHgz3ZsvaFUDf7pi02YHOyodtn34XWCN122Rq2q4QCafvfKyfYEWwpWtcZJAp9uaq02kNFOaDyVCZC6dS/m7pp53AUdufTBI7u163wGdV5edGfGpyi0HcJgFUSq6YFiKquQbKyVQCC9wUYQc+hp6ikf4RLaWfVNS8P/Daj/fgaGjRoWYZJlvKwFtz2qnllKdvxQZkuJg3N8qfbf8/75c/1eCjLQ5Lp42xUwn3VGlwuE8A46f+e/NAXlUUV0gbwZmuIPMD3ZB5HNHU9itWB4QsT7p3oeC3capYxKjvpgIm/BcwFb1sEkP5Y+0NrYzfARRh+4MifvV3PknabA5K48SveCW6fwuUdm4usxwF1uxsLdJIEPZdhm430c4/pYjIipSJAHRP7m1lv4KrIyjx06jlXRa4TfXjLhpatVh6swl8hJuF558I303w6SEC8SlqawwhsBrYVbhkIbpCNnwMqqdb1Dwkm4KqREuvJvX4YJLIyUatTlDPXLt7Jb5Q4L+gutUQ0WjrsSD7sQyN2vvjS46UCjqwAKtV/b8gIUwPUne2pFbCavo4YHac768TMpw9e/AXhhB6k1I8vKbStdgA7GTucDa38o5SzLikfly/8BaeqVJfM0rZEA20FvkYJg7hj/xP5ftPSEipu5kALGCkXyzxTUAf6olXwu4jUkv8vjTcgwcswD/V4QNcWwTaETEFgmxdAs1VPHBgPrZo6WZVIrJpd9LfN5tsCznoxY2v9CTxUMxBSX7ebPamyV/nPmRCmTidaNkL7+T8OWEit7u0S1Ksk05XaCE4CAJFxSEzj663PLhoZNt4M+vHPXHDgKr8+4Z3d6uMO2snwFFhOKfVdfjJQXOVvB01PeDuSuStuyiTdD7vYoHFLOPfPj3xK27nJ+rAO76wVGjDR8mH3QNzsjiaOhH8sVkSMYGoocgg11sPchWADZT4WB95tvbS5anvpNj6VqfdZ0ceMD5+RKJvs36SGLx0GgNdmEoF2oC9cqYopH0ZqNZ7kRQVb6/cYBT/bt8CPPRHZhTlA3sP2S68wbDBamgq3JVG4xtM7fug52hhdH0OngQzM5miqlpOjf/Uo6QfCU5LKEyHN8LtmTq0C2qZhw7Bz91YrbjqjQyinz1/VtnHQigwvxJDHhRdZf5xvpVaY920ndI8lieo5w==','2020-06-26 19:25:24',NULL);
+/*!40000 ALTER TABLE `user_answers` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-06-26 22:35:56
