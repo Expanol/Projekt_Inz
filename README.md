@@ -9,5 +9,4 @@ Link do filmiku pokazującego działanie aplikacji:
 https://drive.google.com/file/d/1SUzpqIbKEkuClI_Z3hpbQ7LYoISR91n9/view?usp=sharing
 
 Link do dokumentacji:
-Dokumentacja projektu znajduje się w repozytorium projektu w formie pdf.
-Projekt_Inz/dokumentacja-projektu.pdf
+https://drive.google.com/file/d/1FW_DBjFZ51-hS8dFTpt3CH9GwhACpAX5/view?usp=sharing
