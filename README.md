@@ -6,7 +6,7 @@ System webowy, który umożliwia przeprowadzanie ankiet w sposób gwarantujący 
  wykładowcy maja możliwość sprawdzenia odpowiedzi anonimowych i niepowiązanych ankiet.
 
 Link do filmiku pokazującego działanie aplikacji:
-https://drive.google.com/file/d/1SUzpqIbKEkuClI_Z3hpbQ7LYoISR91n9/view?usp=sharing
+https://drive.google.com/file/d/1SUzpqIbKEkuClI_Z3hpbQ7LYoISR91n9/view
 
 Link do dokumentacji:
-https://drive.google.com/file/d/1FW_DBjFZ51-hS8dFTpt3CH9GwhACpAX5/view?usp=sharing
+https://github.com/Expanol/Projekt_Inz/blob/master/Dokumentacja-projektu.pdf
