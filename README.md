@@ -9,4 +9,4 @@ Link do filmiku pokazującego działanie aplikacji:
 https://drive.google.com/file/d/1SUzpqIbKEkuClI_Z3hpbQ7LYoISR91n9/view
 
 Link do dokumentacji:
-https://github.com/Expanol/Projekt_Inz/blob/master/Dokumentacja-projektu.pdf
+https://github.com/Expanol/Projekt_Inz/blob/master/Dokumentacja-Projektowa.pdf
